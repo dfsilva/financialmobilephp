@@ -1,0 +1,5 @@
+RewriteEngine on  
+RewriteBase /Financial-Mobile/financialmobile/  
+RewriteCond $1 !^(index\.php|img|css|ext|distappme|charts|js|robots\.txt)
+RewriteRule ^(.*)$ index.php/$1 [L]
+

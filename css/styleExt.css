@@ -1,0 +1,250 @@
+@CHARSET "ISO-8859-1";
+
+.icone-salvar {
+	background-image: url(../img/disquete.png) !important;
+}
+
+.seta-voltar {
+	background-image: url(../img/seta_voltar.png) !important;
+}
+
+.porta-fora {
+	background-image: url(../img/porta_fora.png) !important;
+}
+
+.icone-dinheiro {
+	background-image: url(../img/dinheiro.png) !important;
+}
+
+.icone-dinheiro-out {
+	background-image: url(../img/dinheiro_out.png) !important;
+}
+
+.icone-dinheiro-in {
+	background-image: url(../img/dinheiro_in.png) !important;
+}
+
+.icone-usuario {
+	background-image: url(../img/usuario.png) !important;
+}
+
+.icone-relatorio {
+	background-image: url(../img/relatorio.png) !important;
+}
+
+.relatorio-ir {
+	background-image: url(../img/relatorio_ir.png) !important;
+}
+
+.form-adicionar {
+	background-image: url(../img/form_adicionar.png) !important;
+}
+
+.icone-pacote {
+	background-image: url(../img/pacote.png) !important;
+}
+
+.icone-grid {
+	background-image: url(../img/grid.png) !important;
+}
+
+.icone-grafico-pizza {
+	background-image: url(../img/grafico_pizza.png) !important;
+}
+
+.icone-adicionar {
+	background-image: url(../img/adicionar.png) !important;
+}
+
+.icone-excluir {
+	background-image: url(../img/excluir.png) !important;
+}
+
+.icone-cadeado {
+	background-image: url(../img/cadeado.png) !important;
+}
+
+.icone-porta-entrando {
+	background-image: url(../img/porta_entrando.png) !important;
+}
+
+.icone-ajuda {
+	background-image: url(../img/ajuda.png) !important;
+}
+
+.icone-usuario-adic {
+	background-image: url(../img/usuario_adic.png) !important;
+}
+
+.icone-email-enviar {
+	background-image: url(../img/email_enviar.png) !important;
+}
+
+.icone-lupa {
+	background-image: url(../img/lupa.png) !important;
+}
+
+.icone-editar {
+	background-image: url(../img/editar.png) !important;
+}
+
+.icone-sifrao {
+	background-image: url(../img/sifrao.png) !important;
+}
+
+.icone-excel {
+	background-image: url(../img/excel.png) !important;
+}
+
+/* Início CSS Grid Custos */
+.x-grid3-cell-inner {
+	font-family: "segoe ui", tahoma, arial, sans-serif;
+}
+
+.x-grid-group-hd div {
+	font-family: "segoe ui", tahoma, arial, sans-serif;
+}
+
+.x-grid3-hd-inner {
+	font-family: "segoe ui", tahoma, arial, sans-serif;
+	font-size: 12px;
+}
+
+.x-grid3-body .x-grid3-td-valorParcela {
+	background-color: #f1f2f4;
+}
+
+.x-grid3-summary-row .x-grid3-td-valorParcela {
+	background-color: #e1e2e4;
+}
+
+.x-grid3-dirty-cell {
+	background-image: none;
+}
+
+/*Final - Css Grid Custos*/
+	/*Inicio - CSS utilizado pelo javascript GroupSummary*/
+.x-grid3-summary-row {
+	border-left: 1px solid #fff;
+	border-right: 1px solid #fff;
+	color: #333;
+	background: #f1f2f4;
+}
+
+.x-grid3-summary-row .x-grid3-cell-inner {
+	font-weight: bold;
+	padding-bottom: 4px;
+}
+
+.x-grid3-cell-first .x-grid3-cell-inner {
+	padding-left: 16px;
+}
+
+.x-grid-hide-summary .x-grid3-summary-row {
+	display: none;
+}
+
+.x-grid3-summary-msg {
+	padding: 4px 16px;
+	font-weight: bold;
+}
+
+/*Fim - CSS utilizado pelo javascript GroupSummary*/
+.fonte10px {
+	font-family: Arial, Verdana, sans-serif;
+	font-size: 10px;
+}
+
+input.readonly {
+	color: #606060;
+	background-image: url("../img/text-bg-readonly.png");
+}
+
+/*INICIO DO CSS DO PLUGIN GRIDSUMMARY*/
+.x-grid3-summary-row2 {
+	border-top: 1px solid #0066CC;
+	color: #333;
+	background: #E2EBF6;
+	font-family: Arial, Verdana, sans-serif;
+}
+
+.x-grid3-summary-row2 .x-grid3-cell-inner2 {
+	font-weight: bold;
+	padding-bottom: 4px;
+	font-size: 11px;
+}
+
+.x-grid3-cell-first2 .x-grid3-cell-inner2 {
+	padding-left: 16px;
+	padding-right: 16px;
+}
+
+.x-grid-hide-summary2 .x-grid3-summary-row2 {
+	display: none;
+}
+
+.x-grid3-summary-msg {
+	padding: 4px 16px;
+	font-weight: bold;
+}
+
+.x-grid3-gridsummary-row-inner2 {
+	overflow: hidden;
+	width: 100%;
+}
+
+.x-grid3-gridsummary-row-offset2 {
+	width: 10000px;
+}
+
+.x-grid-hide-gridsummary2 .x-grid3-gridsummary-row-inner2 {
+	display: none;
+}
+
+/*FINAL DO CSS DO PLUGIN DO GRIDSUMMARY*/
+	/*BEGIN - INICIO CSS DASHBOARD*/
+.x-portal .x-panel-dd-spacer {
+	margin-bottom: 10px;
+}
+
+.x-portlet {
+	margin-bottom: 10px;
+}
+
+.x-portlet .x-panel-ml {
+	padding-left: 2px;
+}
+
+.x-portlet .x-panel-mr {
+	padding-right: 2px;
+}
+
+.x-portlet .x-panel-bl {
+	padding-left: 2px;
+}
+
+.x-portlet .x-panel-br {
+	padding-right: 2px;
+}
+
+.x-portlet .x-panel-body {
+	background: white;
+}
+
+.x-portlet .x-panel-mc {
+	padding-top: 2px;
+}
+
+.x-portlet .x-panel-bc .x-panel-footer {
+	padding-bottom: 2px;
+}
+
+.x-portlet .x-panel-nofooter .x-panel-bc {
+	height: 2px;
+}
+/*END - INICIO CSS DASHBOARD*/
+
+.textAjuda{
+	font-size: 14px;
+	font-family: "segoe ui", tahoma, arial, sans-serif;
+}

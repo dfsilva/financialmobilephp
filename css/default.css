@@ -1,0 +1,74 @@
+@CHARSET "ISO-8859-1";
+.invisivel {
+	display: none;
+}
+
+INPUT {
+	border: 1px solid #BED6F8;
+	font-family: Arial, Verdana, sans-serif;
+	font-size: 15px;
+	height: 20px;
+}
+
+INPUT.DISABLED {
+	background-color: #F0F0F0;
+	border: 1px solid #BED6F8;
+	color: #606060;
+	font-family: Arial, Verdana, sans-serif;
+	font-size: 15px;
+}
+
+LABEL {
+	font-family: Arial, Verdana, sans-serif;
+	font-size: 15px;
+}
+
+SELECT {
+	border: 1px solid #BED6F8;
+	font-family: Arial, Verdana, sans-serif;
+	font-size: 15px;
+	height: 20px;
+}
+
+input.largerCheckbox {
+	width: 20px;
+	height: 20px;
+	padding: 0px;
+	margin: 0px;
+}
+
+.bordaAzul {
+	border-top-width: 2px;
+	border-top-style: solid;
+	border-top-color: #0066FF;
+}
+
+a:link.linkButton, a:visited.linkButton
+{
+  float: left;
+  margin: 2px 5px 2px 5px;
+  padding: 2px;
+  width: 150px;
+  border-top: 1px solid #BED6F8;
+  border-bottom: 1px solid #0066CC;
+  border-left: 1px solid #BED6F8;
+  border-right: 1px solid #0066CC;
+  text-align: center;
+  text-decoration: none;
+  font: normal 18px Verdana;
+  color: black;
+  background: #DFE8F6;
+}
+
+a:hover.linkButton
+{
+  background: #eeeeee;
+}
+
+a:active.linkButton
+{
+  border-bottom: 1px solid #BED6F8;
+  border-top: 1px solid #0066CC;
+  border-right: 1px solid #BED6F8;
+  border-left: 1px solid #0066CC;
+}

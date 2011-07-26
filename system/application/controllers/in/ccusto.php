@@ -178,18 +178,18 @@ class CCusto extends MY_Controller {
 
 			$countParcelas = $this->MCusto->getQuantParcelasByCost($idCusto);
 
-			if($countParcelas > 1){
+/* 			if($countParcelas > 1){
 				$return = array(
 				                'success' => FALSE,
                 				'msg'     => 'Este custo possui '.$countParcelas.' parcelas.',
 								'code'    =>  '1');
-			}else{
+			}else{ */
 				if($this->MCusto->deleteCostAndParcelas($idCusto, $numParcela)){
 					$return = array('success'=>TRUE);
 				}else{
-					$return = array('success'=>TRUE, 'msg'=> 'Ocorreu um erro ao excluir o custo.');
+					$return = array('success'=>FALSE, 'msg'=> 'Ocorreu um erro ao excluir o custo.');
 				}
-			}
+		//	}
 		} else {
 			$return = array(
                 'success' => FALSE,
